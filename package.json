@@ -2,13 +2,42 @@
   "name": "@edwardxyt/gws-scripts",
   "version": "1.0.0",
   "description": "创建React应用程序的配置和脚本。",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "edwardxyt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edwardxyt/gws-scripts"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/edwardxyt/gws-scripts/issues"
   },
   "keywords": [
     "gws"
   ],
-  "author": "",
-  "license": "MIT"
+  "main": "index.js",
+  "types": "./types/index.d.ts",
+  "bin": {
+    "gws-scripts": "./bin/gws-scripts.js"
+  },
+  "files": [
+    "bin",
+    "config",
+    "scripts",
+    "types/*.d.ts"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
